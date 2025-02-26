@@ -15,13 +15,14 @@ html {
   --Footer: hsl(228, 45%, 44%);
 
   --White: hsl(0, 0%, 100%);
-  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
-  --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+  --Slightly-transparent-white-main: hsla(0, 0%, 100%, 0.75);
+  --Slightly-transparent-white-stats: hsla(0, 0%, 100%, 0.6);
 
   --inter: "Inter", serif;
   --lexend: "Lexend Deca", serif;
-  --text-lg: 700 2em/150% var(--inter);
-  --text-inter: 400 1.5em/150% var(--inter);
+  --text-lg-lexend: 700 2.5em/120% var(--lexend);
+  --text-lg-inter: 700 2.2em/120% var(--inter);
+  --text-inter: 400 1.2em/120% var(--inter);
   --text-lexend: 400 1.5em/150% var(--lexend);
-  --text-footer: 400 1.3em/150% var(--inter);
+  --text-footer: 400 1.1em/150% var(--inter);
 }
