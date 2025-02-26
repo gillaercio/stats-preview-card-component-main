@@ -1,0 +1,9 @@
+.attribution {
+  /* font-size: 11px; */
+  font: var(--text-lg);
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--Footer)
+}
