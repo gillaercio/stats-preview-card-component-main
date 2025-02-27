@@ -98,7 +98,7 @@ body {
   opacity: .6;
 }
 
-@media screen and (width >= 1024px) {
+@media screen and (width > 1024px) {
   #content {
     width: 896px;
     grid-template-areas: 
@@ -152,5 +152,43 @@ body {
     border-top-left-radius: 0px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+  }
+}
+
+@media screen and (width > 1440px) {
+  #content {
+    width: 1280px;
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
+  }
+
+  .info {
+    width: 640px;
+    padding: 80px;
+  }
+
+  .info h1,
+  .ft-stats {
+    font-size: 4em;
+  }
+
+  .info p {
+    padding-block: 40px;
+    font-size: 2em;
+    line-height: 2em;
+  }
+
+  .stats {
+    grid-gap: 15px;
+  }
+
+  .normal-stats,
+  .attribution {
+    font-size: 1.9em;
+  }
+
+  .feature-img {
+    width: 640px;
+    height: 562px;
   }
 }
